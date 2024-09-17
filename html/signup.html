@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trippy Tunes - Sign Up</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+     
+    </style>
+</head>
+<body class="formbg">
+
+            <div class="form-container mt-5">
+            <div class="container form ">
+            <div class="row mt-5">
+            <h1 class="display-6 ps-5">Sign Up - Trippy Tunes</h1>
+                <form class="signupform" id="formSubmit">
+                    <label >First Name:</label><br>
+                    <input type="text" autocomplete="off" id="FirstName" pattern="[a-zA-Z\s]{3,20}" title="Name Must Be Between 3 to 20 characters | Alphabets Only" required placeholder="Enter your first name"><br><br>
+                    <label >Last Name:</label><br>
+                    <input type="text" autocomplete="off" id="LastName" pattern="[a-zA-Z\s]{3,20}" title="Name Must Be Between 3 to 20 characters | Alphabets Only"  required placeholder="Enter your last name"><br><br>
+                    <label for="email">Email:</label><br>
+                    <input type="email" autocomplete="off" pattern="^[^0-9].*@.*\..*$" id="SignUpEmail" required placeholder="Enter your email"><br><br>
+                   
+                    <label for="email">password:</label><br>
+                    <input type="Password" autocomplete="off" pattern=".{8,}" required title="Password must be at least 8 characters long" id="SignUpPassword" required placeholder="Set your Password"><br>
+                   <br><div class="row">
+                    <div class="col">
+                        <button type="submit" autocomplete="off" class="ms-5 btn btn-banner" id="signUpBtn" style="width:130px ;" >Sign Up</button>                     
+                     <br><br><br>
+                 </div>
+                 <div class="col">
+                     <button type="submit" class=" btn btn-login" id="signUpbtn" ><a class="btn-loginlink" href="./login.html">Log In</a></button>
+ 
+                 </div>
+             </div>
+                   
+                   
+                    <br><br><br>
+                </form>
+            </div>
+            </div>
+           
+        </div>
+        </div>
+        
+    <script src="../js/script.js"></script>
+    <!-- <script>
+        let ifUserLoggedIn = localStorage.getItem("loginuser");
+        if(ifUserLoggedIn){
+            location.href = "login.html";
+        }
+    </script> -->
+   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>

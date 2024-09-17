@@ -1,0 +1,790 @@
+[
+  {
+    "id": 1,
+    "name": "Amanat Ali",
+    "heading": "Best Of  Amanat Ali",
+    "image": "../images/shafqat amanat ali.jfif",
+    "songs": [
+      "Allah wariyan.m4a",
+      "bin tere.m4a",
+      "darmiyaan.m4a",
+      "dildara.m4a",
+      "kiyun me jagun.m4a",
+      "manchala.m4a",
+      "mitwa.m4a",
+      "tere naina.m4a",
+      "teri jhuki nazar.m4a",
+      "tu hi mera.m4a"
+    ],
+    "songnames": [
+      "Allah wariyan",
+      "bin tere",
+      "darmiyaan",
+      "dildara",
+      "kiyun me jagun",
+      "manchala",
+      "mitwa",
+      "tere naina",
+      "teri jhuki nazar",
+      "tu hi mera"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Arijit Singh",
+    "heading": "Best Of  Arijit Singh",
+    "image": "../images/arijit singh.jfif",
+    "songs": [
+      "tujhe kitna chahne.m4a",
+      "fitoor.m4a",
+      "kabira.m4a",
+      "lutt putt gaya.m4a",
+      "omahi.m4a",
+      "sajni.m4a",
+      "satranga.m4a",
+      "shayad.mp3",
+      "ve kamleya.m4a",
+      "main phir bhi tumko.m4a"
+    ],
+    "songnames": [
+      "tujhe kitna chahne lagey hum",
+      "fitoor",
+      "kabira",
+      "lutt putt gaya",
+      "o mahi",
+      "sajni",
+      "satranga",
+      "shayad",
+      "ve kamleya",
+      "main phir bhi tumko chahunga"
+    ]
+  },
+
+  {
+    "id": 3,
+    "name": "Shreya Ghoshal",
+    "heading": "Best Of Shreya Ghoshal",
+    "image": "../images/shreya ghoshal.jfif",
+    "songs": [
+      "saibo.mp3",
+      "bahara.mp3",
+      "deewani mastani.mp3",
+      "hasi.mp3",
+      "manwa lage.mp3",
+      "mere dholna.mp3",
+      "piyu bole.mp3",
+      "teri ore.mp3",
+      "tum jo aye.mp3",
+      "ye ishq hai.mp3"
+    ],
+    "songnames": [
+      "saibo",
+      "bahara",
+      "deewani mastani",
+      "hasi",
+      "manwa lage",
+      "mere dholna",
+      "piyu bole",
+      "teri ore",
+      "tum jo aye",
+      "ye ishq hai"
+    ]
+  },
+
+  {
+    "id": 4,
+    "name": "Talha Anjum",
+    "heading": "Best Of  Talha Anjum",
+    "image": "../images/rap.jpg",
+    "songs": [
+      "come through.m4a",
+      "dont mind.m4a",
+      "downers at dusk.m4a",
+      "glass half full.mp3",
+      "gumaan.m4a",
+      "laga reh.m4a",
+      "muntazir.m4a",
+      "phir milenge.m4a",
+      "talk to me.m4a",
+      "why.m4a"
+    ],
+    "songnames": [
+      "come through",
+      "dont mind",
+      "downers at dusk",
+      "glass half full",
+      "gumaan",
+      "laga reh",
+      "muntazir",
+      "phir milenge",
+      "talk to me",
+      "why"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Atif Aslam",
+    "heading": "Best Of  Atif Aslam",
+    "image": "../images/atif aslam.jpg",
+    "songs": [
+      "adat.mp3",
+      "bakhuda tum hi ho.mp3",
+      "dil diyan gallan.mp3",
+      "doorie.mp3",
+      "hona tha pyar.mp3",
+      "jeene laga hoon.mp3",
+      "kuch is tarah.mp3",
+      "pheli nazar mein.mp3",
+      "piya o re piya.mp3",
+      "tera hone laga hoon.mp3"
+    ],
+    "songnames": [
+      "adat",
+      "bakhuda tum hi ho",
+      "dil diyan gallan",
+      "doorie",
+      "hona tha pyar",
+      "jeene laga hoon",
+      "kuch is tarah",
+      "pheli nazar mein",
+      "piya o re piya",
+      "tera hone laga hoon"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Ali Zafar",
+    "heading": "Best Of  Ali Zafar",
+    "image": "../images/Ali Zafar.jfif",
+    "songs": [
+      "chal dil mere.mp3",
+      "chan ve.mp3",
+      "sun re sajnaniya.mp3",
+      "wo dekhne mein.mp3",
+      "sajna door.mp3",
+      "paharon ki qasam.mp3",
+      "mujhe tum nazar se.mp3",
+      "madhubala.mp3",
+      "jhoom.mp3",
+      "pheli si muhabat.mp3"
+    ],
+    "songnames": [
+      "chal dil mere",
+      "chan ve",
+      "sun re sajaniya",
+      "wo dekhne mein",
+      "sajna door",
+      "paharon ki qasam",
+      "mujhe tum nazar se",
+      "madhubala",
+      "jhoom",
+      "pheli si muhabat"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Ariana Grande",
+    "heading": "Best Of Ariana Grande",
+    "image": "../images/Ariana Grande.jfif",
+    "songs": [
+      "7_rings.mp3",
+      "rain_on_me.mp3",
+      "breakup_with_your_gf.mp3",
+      "save_your_tears.mp3",
+      "into_you.mp3",
+      "side_to_side.mp3",
+      "no_tears_left.mp3",
+      "stuck_with_us.mp3",
+      "positions.mp3",
+      "Thankyou_next.mp3"
+    ],
+    "songnames": [
+      "7 rings",
+      "Rain on me",
+      "Breakup with your gf",
+      "Save your tears",
+      "Into you",
+      "Side to side",
+      "No tears left",
+      "Stuck with us",
+      "Positions",
+      "Thankyou next"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Charlie Puth",
+    "heading": "Best Of Charlie Puth",
+    "image": "../images/Charlie Puth.jfif",
+    "songs": [
+      "attention.mp3",
+      "Marvin_gaye.mp3",
+      "dangerously.mp3",
+      "one_call_away.mp3",
+      "done_for_me.mp3",
+      "see_you_again.mp3",
+      "empty_cups.mp3",
+      "slow_it_down.mp3",
+      "how_long.mp3",
+      "we_dont_talk_anymore.mp3"
+    ],
+    "songnames": [
+      "Attention",
+      "Marvin gaye",
+      "Dangerously",
+      "One call away",
+      "Done for me",
+      "See you again",
+      "Empty cups",
+      "Slow it down",
+      "How long",
+      "We dont talk anymore"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Ed Sheeran",
+    "heading": "Best Of Ed Sheeran",
+    "image": "../images/Ed Sheeran.jfif",
+    "songs": [
+      "cold_coffee.mp3",
+      "perfect.mp3",
+      "dive.mp3",
+      "photograph.mp3",
+      "how_would_you_feel.mp3",
+      "shape_of_you.mp3",
+      "let_her_go.mp3",
+      "thinking_out_loud.mp3",
+      "one.mp3",
+      "wake_me_up.mp3"
+    ],
+    "songnames": [
+      "Cold coffee",
+      "Perfect",
+      "Dive",
+      "Photograph",
+      "How would you feel",
+      "Shape of you",
+      "Let her go",
+      "Thinking out loud",
+      "One",
+      "Wake me up"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Halsey",
+    "heading": "Best Of Halsey",
+    "image": "../images/Halsey.jfif",
+    "songs": [
+      "bad_at_love.mp3",
+      "graveyard.mp3",
+      "closer.mp3",
+      "nightmare.mp3",
+      "colors.mp3",
+      "now_or_never.mp3",
+      "east_side.mp3",
+      "without_me.mp3",
+      "gasoline.mp3",
+      "you_should_be_sad.mp3"
+    ],
+    "songnames": [
+      "Bad at love",
+      "Graveyard",
+      "Closer",
+      "Nightmare",
+      "Colors",
+      "Now or never",
+      "East side",
+      "Without me",
+      "Gasoline",
+      "you should be sad"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Justin Bieber",
+    "heading": "Best Of Justin Bieber",
+    "image": "../images/justin bieber.jfif",
+    "songs": [
+      "baby.mp3",
+      "stay.mp3",
+      "intentions.mp3",
+      "what_do_you_mean.mp3",
+      "love_yourself.mp3",
+      "where_are_you_now.mp3",
+      "peaches.mp3",
+      "you_love_me.mp3",
+      "sorry.mp3",
+      "yummy.mp3"
+    ],
+    "songnames": [
+      "Baby",
+      "Stay",
+      "Intentions",
+      "What do you mean",
+      "Love yourself",
+      "Where are you now",
+      "Peaches",
+      "As long as you love me",
+      "Sorry",
+      "Yummy"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Shawn Mendes",
+    "heading": "Best Of Shawn Mendes",
+    "image": "../images/Shawn Mendes.jfif",
+    "songs": [
+      "if_i_cant_have_you.mp3",
+      "senorita.mp3",
+      "in_my_blood.mp3",
+      "stitches.mp3",
+      "lost_in_japan.mp3",
+      "theres_nothing_holding_me_back.mp3",
+      "mercy.mp3",
+      "treat_you_better.mp3",
+      "monster.mp3",
+      "wonder.mp3"
+    ],
+    "songnames": [
+      "If I cant have you",
+      "Senorita",
+      "In my blood",
+      "Stitches",
+      "Lost in Japan",
+      "Theres nothing holding me back",
+      "Mercy",
+      "Treat you better",
+      "Monster",
+      "Wonder"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Taylor Swift",
+    "heading": "Best Of Taylor Swift",
+    "image": "../images/Taylor Swift.jfif",
+    "songs": [
+      "22.mp3",
+      "mean.mp3",
+      "back_to_december.mp3",
+      "shake_it_off.mp3",
+      "blank_space.mp3",
+      "style.mp3",
+      "i_knew_you_were_trouble.mp3",
+      "Tim_McGraw.mp3",
+      "love_story.mp3",
+      "you_belong_with_me.mp3"
+    ],
+    "songnames": [
+      "22",
+      "Mean",
+      "Back to december",
+      "Shake it off",
+      "Blank space",
+      "Style",
+      "I knew you were trouble",
+      "Tim McGraw",
+      "Love story",
+      "You belong with me"
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Zayn Malik",
+    "heading": "Best Of Zayn Malik",
+    "image": "../images/Zayn Malik.jfif",
+    "songs": [
+      "better.mp3",
+      "like_i_would.mp3",
+      "entertainer.mp3",
+      "pillow_talk.mp3",
+      "fingers.mp3",
+      "sour_diesel.mp3",
+      "i_dont_wanna_live_forever.mp3",
+      "still_got_time.mp3",
+      "let_me.mp3",
+      "dreaming.mp3"
+    ],
+    "songnames": [
+      "Better",
+      "Like I would",
+      "Entertainer",
+      "Pillow talk",
+      "Fingers",
+      "Sour diesel",
+      "I dont wanna live forever",
+      "Still got time",
+      "Let me",
+      "Dreaming"
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Billie Eilish",
+    "heading": "Best Of Billie Eilish",
+    "image": "../images/Billie Eilish.jfif",
+    "songs": [
+      "all_the_good_girls.mp3",
+      "no_time_to_die.mp3",
+      "bad_guy.mp3",
+      "ocean_eyes.mp3",
+      "everything_ i_wanted.mp3",
+      "party's_over.mp3",
+      "happier_then_ever.mp3",
+      "strange_addiction.mp3",
+      "lovely.mp3",
+      "xanny.mp3"
+    ],
+    "songnames": [
+      "All the good girls",
+      "No time to die",
+      "Bad guy",
+      "Ocean eyes",
+      "Everything I wanted",
+      "Party's over",
+      "Happier then ever",
+      "Strange addiction",
+      "Lovely",
+      "Xanny"
+    ]
+  },
+  {
+    "id": 16,
+    "name": "harry Styles",
+    "heading": "Best Of Harry Styles",
+    "image": "../images/harry styles.jfif",
+    "songs": [
+      "adore_you.mp3",
+      "as_it_was.mp3",
+      "falling.mp3",
+      "golden.mp3",
+      "kiwi.mp3",
+      "late_night_talking.mp3",
+      "lights_up.mp3",
+      "signs_of_the_time.mp3",
+      "treat_people_with_kindness.mp3",
+      "watermelon_sugar.mp3"
+    ],
+    "songnames": [
+      "adore you",
+      "as it was",
+      "falling",
+      "golden",
+      "kiwi",
+      "late night talking",
+      "lights up",
+      "signs of the time",
+      "treat people with kindness",
+      "watermelon sugar"
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Rahat Fateh Ali Khan",
+    "heading": "Best Of Rahat Fateh Ali Khan",
+    "image": "../images/rfak.jfif",
+    "songs": [
+      "aaj din chadeya.mp3",
+      "bol na halke halke.mp3",
+      "dagabaz re.mp3",
+      "ehd e wafa.mp3",
+      "jag ghoomeya.mp3",
+      "tum jo ayee.mp3",
+      "jag soona lagey.mp3",
+      "mere rashke qamar.mp3",
+      "o re piya.mp3",
+      "sanu ek pal chain.mp3"
+    ],
+    "songnames": [
+      "aaj din chadeya",
+      "bol na halke halke",
+      "dagabaz re",
+      "ehd e wafa",
+      "jag ghoomeya",
+      "tum jo ayee",
+      "jag soona soona lagey",
+      "mere rashke qamar",
+      "o re piya",
+      "sanu ek pal chain"
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Kailash Kher",
+    "heading": "Best Of Kailash Kher",
+    "image": "../images/kailash kher.jfif",
+    "songs": [
+      "allah k bande.mp3",
+      "chhap tilak.mp3",
+      "dilruba.mp3",
+      "saiyyan.mp3",
+      "mere nishaan.mp3",
+      "piya ghar aavege.mp3",
+      "tauba tauba.mp3",
+      "tere naina.mp3",
+      "tujhe mein pyar kerun.mp3",
+      "ya rabba.mp3"
+    ],
+    "songnames": [
+      "allah ke bande",
+      "chhap tilak",
+      "dilruba",
+      "saiyyan",
+      "mere nishaan",
+      "piya ghar aavenge",
+      "tauba tauba",
+      "tere naina",
+      "tujhe mein pyar kerun",
+      "ya rabba"
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Neha Kakkar",
+    "heading": "Best Of Neha Kakkar",
+    "image": "../images/neha kakkar.jpg",
+    "songs": [
+      "ankh marey.mp3",
+      "dil ko karrar aaya.mp3",
+      "dilbar.mp3",
+      "gali gali.mp3",
+      "hauli hauli.mp3",
+      "kala chashma.mp3",
+      "kalla sohna nai.mp3",
+      "mile ho tum.mp3",
+      "morni banke.mp3",
+      "yaad piya ki anaey lagi.mp3"
+    ],
+    "songnames": [
+      "ankh marey",
+      "dil ko karrar aaya",
+      "dilbar",
+      "gali gali",
+      "hauli hauli",
+      "kala chashma",
+      "kalla sohna nai",
+      "mile ho tum",
+      "morni banke",
+      "yaad piya ki aaney lagi"
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Badshah",
+    "heading": "Best Of Badshah",
+    "image": "../images/badshah.jfif",
+    "songs": [
+      "abhi to party.mp3",
+      "DJ waley babu.mp3",
+      "genda phool.mp3",
+      "heartless.mp3",
+      "mercy.mp3",
+      "paagal.mp3",
+      "proper patola.mp3",
+      "sheher ki ladki.mp3",
+      "soulmate.mp3",
+      "tere naal nachna.mp3"
+    ],
+    "songnames": [
+      "abhi to party",
+      "DJ waley babu",
+      "genda phool",
+      "heartless",
+      "mercy",
+      "paagal",
+      "proper patola",
+      "sheher ki ladki",
+      "soulmate",
+      "tere naal nachna"
+    ]
+  },
+  
+         {
+    "id": 21,
+    "name": "Party Songs",
+    "heading": "Ultimate Party Anthem Hits",
+    "image": "../images/party.webp",
+    "songs": [
+      "abhi to party.mp3",
+      "ankh marey.mp3",
+     "morni banke.mp3",
+     "kala chashma.mp3",
+      "genda phool.mp3",
+      "mercy.mp3",
+      "gali gali.mp3",
+      "proper patola.mp3",
+      "sheher ki ladki.mp3",
+      "tere naal nachna.mp3"
+    ],
+    "songnames": [
+      "abhi to party",
+      "ankh marey",
+     "morni banke",
+     "kala chashma",
+      "genda phool",
+      "mercy",
+      "gali gali",
+      "proper patola",
+      "sheher ki ladki",
+      "tere naal nachna"
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Love Songs",
+    "heading": "Songs for the Heartfelt Moments",
+    "image": "../images/love .jpg",
+    "songs": [
+      "saiyyan.mp3",
+      "dagabaz re.mp3",
+      "ehd e wafa.mp3",
+      "jag ghoomeya.mp3",
+      "love_story.mp3",
+      "baby.mp3",
+      "satranga.m4a",
+      "shayad.mp3",
+      "bakhuda tum hi ho.mp3",
+      "wo dekhne mein.mp3"
+    ],
+    "songnames": [
+      "saiyyan",
+      "dagabaz re",
+      "ehd e wafa",
+      "jag ghoomeya",
+      "love story",
+      "baby",
+      "satranga",
+      "shayad",
+      "bakhuda tum hi ho",
+      "wo dekhne mein"    ]
+  },
+  {
+    "id": 23,
+    "name": "Sad Songs",
+    "heading": "Echoes of Sorrow",
+    "image": "../images/sad.jfif",
+    "songs": [
+      "adat.mp3",
+      "allah k bande.mp3",
+      "Allah wariyan.m4a",
+      "jag soona lagey.mp3",
+      "lovely.mp3",
+      "main phir bhi tumko.m4a",
+      "mujhe tum nazar se.mp3",
+      "pheli si muhabat.mp3",
+      "ya rabba.mp3",
+      "channa mereya.mp3"    
+
+    ],
+    "songnames": [
+      "adat",
+      "allah k bande",
+      "Allah wariyan",
+      "jag soona soona lagey",
+      "lovely",
+      "main phir bhi tumko",
+      "mujhe tum nazar se",
+      "pheli si muhabat",
+      "ya rabba",
+      "channa mereya"]
+  },
+  {
+    "id": 24,
+    "name": "90's Hit",
+    "heading": "90's Hit for Your Retro Vibes!",
+    "image": "../images/90s.jpeg",
+    "songs": [
+      "aaye ho meri zindagi mein.mp3",
+      "abhi na jao chor kar.mp3",
+      "barsat k mausam mein.mp3",
+      "chand chupa badal mein.mp3",
+      "ek din aap.mp3",
+      "ek ladki ko dekha.mp3",
+      "jab koi baat.mp3",
+      "kaho na pyar hai.mp3",
+      "mere mehboob mere sanam.mp3",
+      "phela nasha.mp3"    
+
+    ],
+    "songnames": [
+      "aaye ho meri zindagi mein",
+      "abhi na jao chor kar",
+      "barsat k mausam mein",
+      "chand chupa badal mein",
+      "ek din aap",
+      "ek ladki ko dekha",
+      "jab koi baat",
+      "kaho na pyar hai",
+      "mere mehboob mere sanam",
+      "phela nasha"    
+]
+  },
+  {
+    "id": 25,
+    "name": "Hip Hop",
+    "heading": "Hip Hop Playlist to Elevate Your Beats.",
+    "image": "../images/rap.jfif",
+    "songs": [
+      "mockingbird.mp3",
+      "blue eyes.mp3",
+      "muntazir.m4a",
+      "dont mind.m4a",
+      "machayenge.mp3",
+      "downers at dusk.m4a",
+      "lose yourself.mp3",
+      "laga reh.m4a",
+      "desi kalakar.mp3",
+     "glass half full.mp3"
+   
+
+    ],
+    "songnames": [
+      "mockingbird",
+      "blue eyes",
+      "muntazir",
+      "dont mind",
+      "machayenge",
+      "downers at dusk",
+      "lose yourself",
+      "laga reh",
+      "desi kalakar",
+     "glass half full"
+       
+]
+  },
+  {
+    "id": 26,
+    "name": "Slowed & reverb",
+    "heading": "Slowed & Reverbed for Ultimate Relaxation",
+    "image": "../images/slowed.jfif",
+    "songs": [
+      "ankhiyaan gulab.mp3",
+      "diamonds.mp3",
+      "excuses.mp3",
+      "love story.mp3",
+      "iraadey.mp3",
+      "khalasi.mp3",
+      "malang sajna.mp3",
+      "play date.mp3",
+      "we rollin.mp3",
+     "teri ore lofi.mp3"
+   
+
+    ],
+    "songnames": [
+     "ankhiyaan gulab",
+      "diamonds",
+      "excuses",
+      "love story",
+      "iraadey",
+      "khalasi",
+      "malang sajna",
+      "play date",
+      "we rollin",
+     "teri ore"  
+]
+  }
+]

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trippy Tunes</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- SweetAlert2 CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+
+
+
+</head>
+<body>
+       <!-- navbar of website -->
+       <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+            <img src="../images/logo-removebg-preview.png" alt="Trippy Tunes Logo" width="150" height="45" class="logo"/>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="library.html">Your Playlist</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="./index.html#genre">Mood & Genres</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="../html/index.html#trend-artists">Trending Artists</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="../html/pricing.html">Our Subscriptions</a>
+                    </li>
+                      <li class="nav-item">
+                          <a class="nav-link " href="../html/conatct-us.html">Contact Us</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link " href="../html/aboutus.html">About Us</a>
+                      </li>
+                    </li>
+                <form class="d-flex">
+                    <input class="form-control me-2 searchbar" placeholder="Search Here ..." id="search-input" type="search" aria-label="Search" autocomplete="off" />
+                    <ul id="searchResults"></ul>
+                </form>
+            </div>
+        </div>
+    </nav>
+      <!-- nav end -->
+     <!-- songs list -->
+
+     <div class="container text-light mt-5 songcontainer">
+        <div class="row  mt-5" id="ArtistContainer">
+            <div class="col-lg-2 artistCover" >
+                <img src="" alt="" id="artistImg" data-aos="fade-up">
+              </div>
+              <div class="col-lg artistCover">
+         <h1  id="artistTitle"data-aos="fade-up"></h1>
+        </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col songList">
+                <h1 class=" mb-2" id="heading" data-aos="fade-up"   ></h1>
+                <div class="songItemContainer" id="songItemContainer">
+                   <div class="row" data-aos="fade-up">
+                    <div class="col" id="iconplayer" data-aos="fade-up"></div>
+                   </div>
+                </div>
+            </div>
+    
+</div>
+
+        </div>
+<!--      
+        <div class="bottom">
+            <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+            
+            <div class="icons">
+                <-- fontawesome icons -->
+                <!-- <i class="fas fa-3x fa-step-backward" id="previous"></i>
+                <i class="far fa-3x fa-play-circle" id="masterPlay"></i>
+                <i class="fas fa-3x fa-step-forward" id="next"></i> 
+            </div>
+            <div class="songInfo">
+                <img src="../images/giphy.webp" width="42px" alt="" id="gif">  <span id="masterSongName"></span>
+            </div>
+        </div>
+     </div>  -->
+     <div class="bottom position-sticky bottom-0 start-0 end-0 d-flex flex-column align-items-center" id="player">
+      <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+  
+      <div class="icons d-flex justify-content-center mt-5">
+        <i class="fas fa-3x fa-step-backward mt-2" id="previous"></i>
+        <i class="far fa-3x fa-play-circle mx-3  mt-2" id="masterPlay"></i>
+        <i class="fas fa-3x fa-step-forward  mt-2" id="next"></i> 
+      </div>
+      <div class="songInfo d-flex align-items-center mt-2">
+        <img src="../images/giphy.webp" width="42px" alt="" id="gif">  
+        <span id="masterSongName" class="ms-2"></span>
+      </div>
+    </div>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="../js/bootstrap.bundle.min.js"></script>
+<script src="../js/search-bar.js"></script>
+
+<!-- SweetAlert2 JS -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert2/11.12.4/sweetalert2.min.js" integrity="sha512-w4LAuDSf1hC+8OvGX+CKTcXpW4rQdfmdD8prHuprvKv3MPhXH9LonXX9N2y1WEl2u3ZuUSumlNYHOlxkS/XEHA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="../js/search-bar.js"></script>
+    <script src="../js/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({duration: 1200,});
+      </script>
+</body>
+</html>

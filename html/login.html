@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trippy Tunes - Sign Up</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="formbg">
+
+            <div class="form-container mt-5">
+            <div class="container form ">
+            <div class="row mt-5">
+            <h1 class="display-6 ps-5">LOG IN - Trippy Tunes</h1>
+            <div class="col">
+                <form class="signupform">
+<!--                     
+                    <label >Last Name:</label><br>
+                    <input type="text" id="LastName" pattern="[a-zA-Z\s]{3,20}" title="Name Must Be Between 3 to 20 characters | Alphabets Only"  required placeholder="Enter your last name"><br><br> -->
+                    <label for="email">Email:</label><br>
+                    <input type="email" autocomplete="off" pattern="^[^0-9].*@.*\..*$" id="LogInEmail" required placeholder="Enter your email"><br><br>
+                   
+                    <label for="email">password:</label><br>
+                    <input type="Password" autocomplete="off" pattern=".{8,}" required title="Password must be at least 8 characters long" id="LogInPassword" required placeholder="Set your Password"><br>
+                   <br><div class="row">
+                   <div class="col">
+                    <button type="submit" class=" btn btn-login ms-5" id="LogInBtn" >Log In</button>
+                    
+                    <br><br><br>
+                </div>
+                <div class="col">
+                    <button type="submit" class=" btn btn-login" id="signUpbtn" ><a class="btn-loginlink" href="./signup.html">Sign Up</a></button>
+
+                </div>
+            </div>
+                </form>
+            </div>
+            </div>
+           
+        </div>
+        </div>
+        
+    <script src="../js/login.js"></script>
+    <script>
+        let ifUserLoggedIn = localStorage.getItem("loginuser");
+        if(ifUserLoggedIn) {
+            location.href = "index.html";
+        }
+    </script>
+   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>

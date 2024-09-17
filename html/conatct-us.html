@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/Contactus.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.12.1/dist/sweetalert2.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+
+</head>
+<body>
+     <!-- navbar of website -->
+     <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+      <div class="container-fluid">
+          <img src="../images/logo-removebg-preview.png" alt="Trippy Tunes Logo" width="150" height="45" class="logo"/>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+              <ul class="navbar-nav mb-2 mb-lg-0">
+                  <li class="nav-item">
+                      <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link " aria-current="page" href="library.html">Your Playlist</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link " aria-current="page" href="./index.html#genre">Mood & Genres</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link " aria-current="page" href="../html/index.html#trend-artists">Trending Artists</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link " aria-current="page" href="../html/pricing.html">Our Subscriptions</a>
+                  </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="../html/conatct-us.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="../html/aboutus.html">About Us</a>
+                    </li>
+                  </li>
+              <form class="d-flex">
+                  <input class="form-control me-2 searchbar" placeholder="Search Here ..." id="search-input" type="search" aria-label="Search" autocomplete="off" />
+                  <ul id="searchResults"></ul>
+              </form>
+          </div>
+      </div>
+  </nav>
+    <!-- nav end -->
+  
+    <!-- banner -->
+    <div class="banner-contact" style="background-image: url(../images/banner.jpg);">
+        <div class="container-fluid form-back">
+            <form action="" method="post" id="form" onsubmit="popup(event)">
+                <label for="name">Name:</label><br>
+                <input type="text" autocomplete="off" id="name" pattern="[a-zA-Z\s]{3,20}" name="name"title="Name Must Be Between 3 to 20 characters | Alphabets Only" required placeholder="Enter your name"><br><br>
+                <label for="email" class="email">Email:</label><br>
+                <input type="email" autocomplete="off" pattern="^[^0-9].*@.*\..*$" id="email" name="email" required placeholder="Enter your email"><br><br>
+                <input type="radio" name="matter" id="feedback" class="radiobtn">
+                <label for="feedback" class="ms-1" id="feed">Feedback</label>
+                <input type="radio" autocomplete="off" class="ms-4 radiobtn" name="matter" id="complaints">
+                <label for="complaints" id="complaint" class="ms-1">Complaints</label><br>
+                <label for="description">Complaints/Feedback:</label>
+                <textarea name="description" required id="content" cols="30" rows="3" placeholder="Any Complaints/Feedback"></textarea><br><br>
+                <button type="submit" id="submit" name="submit" >Submit</button>
+            </form>
+        </div>
+    </div>
+    <!-- banner end -->
+
+  <!-- Footer -->
+<div class="mb-0 " style="overflow-x: hidden;">
+  <footer class="text-center text-lg-start text-white">
+    <!-- Grid container -->
+    <div class="container-fluid p-4 pb-0">
+      <!-- Section: Links -->
+      <section class="">
+        <!--Grid row-->
+        <div class="row">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-2">
+            <h2 class="text-uppercase mb-4 footer-heading">
+          Trippy Tunes
+            </h2>
+            <p>
+       Let Tripppy Tunes be your sonic guide to a universe of beats,rhythms,& unforgettable melodies,where every click opens a door to a symphony of emotions and experiences,waiting to be explored and enjoyed.
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <hr class="w-100 clearfix d-md-none" />
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3 links">
+            <h5 class="text-uppercase mb-4 footer-heading">Categories</h5>
+            <p>
+              <a class="footer-anchor text-white" href="./index.html#trend-artists" >Trending Artists</a>
+            </p><br>
+            <p>
+              <a class="footer-anchor text-white" href="./index.html#genre" >Mood & Genres</a>
+            </p>
+           
+          </div>
+          <!-- Grid column -->
+
+          <hr class="w-100 clearfix d-md-none" />
+
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3 contact-footer">
+            <h5 class="text-uppercase mb-4 footer-heading">Connect with us</h5>
+            <p> <a class="footer-anchor" href="../html/conatct-us.html">Contact Us</a></p>
+            <p><a class="footer-anchor" href="../html/aboutus.html">About Us</a></p>
+          
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+        </div>
+        <!--Grid row-->
+      </section>
+      <!-- Section: Links -->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+  <section class=" row footer-line">
+<!-- Left -->
+<div class="me-5 col-md-3 col-lg-3 col-xl-8  connect-line">
+<span >Get connected with us on social networks:</span>
+</div>
+<!-- Left -->
+
+<!-- Right -->
+<div class="col-md-3 col-lg-3 ">
+<a href="" class="text-white me-4">
+<i class="fab fa-facebook-f"></i>
+</a>
+<a href="" class="text-white me-4">
+<i class="fab fa-twitter"></i>
+</a>
+<a href="" class="text-white me-4">
+<i class="fab fa-google"></i>
+</a>
+<a href="" class="text-white me-4">
+<i class="fab fa-instagram"></i>
+</a>
+
+</div>
+<!-- Right -->
+  </footer>
+  <!-- Footer -->
+</div>
+<!-- End of .container -->
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<script src="../js/style.js"></script>
+<script src="../js/search-bar.js"></script>
+<script src="../js/json/artist.json"></script>
+<script src="../js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
